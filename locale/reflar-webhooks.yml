@@ -1,0 +1,96 @@
+reflar-webhooks:
+  actions:
+    discussion:
+      started: "Je započeo/la diskusiju `{1}`"
+      renamed:
+        title: "Preimenovana rasprava `{1}`"
+        description: "Novi naslolv: {1}"
+      hidden: "Skrivena rasprava `{1}`"
+      restored: "Vraćena diskusija `{1}`"
+      deleted: "Izbrisana rasprava `{1}`"
+
+    group:
+      created: "Kreira `{1}` grupu"
+      renamed: "Preimenovao/la je grupu u `{1}`"
+      deleted: "Izbrisao/la `{1}` grupu"
+
+    post:
+      posted: "Nova objava u `{1}`"
+      revised: "Uređena objava u `{1}`"
+      hidden: "Skrivena objava u `{1}`"
+      restored: "Vraćen je post u `{1}`"
+      deleted: "Obrisana objava u `{1}`"
+
+    user:
+      registered: Novi korisnik se reigstrovao
+      renamed:
+        title: "Promijenjeno korisničko ime za `{1}`"
+        description: "Novo korisničko ime: {1}"
+      deleted: "Izbrisani korisnik `{1}`"
+
+  adapters:
+    errors:
+      404: Webhook nije pronađen
+
+  admin:
+    errors:
+      service_not_found: The service '{service}' cannot be found.
+      url_invalid: URL is not valid for selected service.
+
+    nav:
+      desc: Customizable outgoing webhooks for your forum.
+    settings:
+      title: Webhooks
+
+      help:
+        disabled: This webhook is disabled because it doesn't have any events enabled.
+        general: Here you can add, edit, and remove webhooks from your forum.
+        url: The webhook's endpoint to be executed
+
+      modal:
+        title: Webhook Settings
+        description: Here you modify what events the webhook is fired on.
+
+      services:
+        discord: Discord
+        slack: Slack
+
+      actions:
+        flarum:
+          discussion:
+            title: BalkanBuzz Diskusije
+
+            started: Započeto
+            renamed: => reflar-webhooks.ref.renamed
+            hidden: => reflar-webhooks.ref.hidden
+            restored: => reflar-webhooks.ref.restored
+            deleted: => reflar-webhooks.ref.deleted
+
+          group:
+            title: BBuzz Grupe
+
+            created: Kreirano
+            renamed: => reflar-webhooks.ref.renamed
+            deleted: => reflar-webhooks.ref.deleted
+
+          post:
+            title: BBuzz postovi
+
+            posted: Objavljeno
+            revised: Uređeno
+            hidden: => reflar-webhooks.ref.hidden
+            restored: => reflar-webhooks.ref.restored
+            deleted: => reflar-webhooks.ref.deleted
+
+          user:
+            title: BBuzz Korisnici
+
+            registered: Registrovan
+            renamed: => reflar-webhooks.ref.renamed
+            deleted: => reflar-webhooks.ref.deleted
+
+  ref:
+    deleted: Izbrisan
+    hidden: Skriveno
+    renamed: Preimenovano
+    restored: Vraćeno
