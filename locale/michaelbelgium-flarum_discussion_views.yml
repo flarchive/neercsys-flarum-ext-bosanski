@@ -1,0 +1,26 @@
+core:
+  forum:
+    index_sort:
+      popular_button: Popularno
+      unpopular_button: Nepopularno
+
+flarum_discussion_views:
+  forum:
+    modal_resetviews:
+      title: Poništi broj pregleda diskusije
+      submit: Da, ukloni sve
+      label: Ovo će ukloniti {count} pregleda na ovu diskusiju. Nastaviti?|Ovo će ukloniti {count} pregleda na ovoj diskusiji. Nastaviti?
+    discussion_controls:
+      resetviews_button: Resetuj preglede
+    viewlist:
+      title: Najnoviji gledatelji
+  admin:
+      permissions:
+        reset_views_label: Postavi broj pregleda diskusije
+      settings:
+        title: Postavke pregleda diskusija
+        track_unique: Pratite jedinstvene poglede
+        abbr_numbers: Skraćeni brojevi prikaza
+        show_filter: Omogući (ne) popularno polje sortiranja
+        max_viewcount: Najveći broj stavki za prikaz
+        show_viewlist: Omogući popis gledatelja
