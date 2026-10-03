@@ -2,13 +2,24 @@
 
 > **Read-only archive of released versions of neercsys/flarum-ext-bosanski.** Not for installation: use [Packagist](https://packagist.org/packages/neercsys/flarum-ext-bosanski) or the [upstream repository](https://github.com/neercsys/flarum-ext-bosanski).
 
-**0** versions archived · Latest: [`v0.39`](https://github.com/flarchive/neercsys-flarum-ext-bosanski/tree/archive/v0.39) · License: `MIT` · Flarum: `^0.1.0-beta.15`
+**34** versions archived · Latest: [`v0.39`](https://github.com/flarchive/neercsys-flarum-ext-bosanski/tree/archive/v0.39) · License: `MIT` · Flarum: `^0.1.0-beta.15`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `0.10` | 2019-09-18 | `^0.1.0-beta.9` | [Browse](https://github.com/flarchive/neercsys-flarum-ext-bosanski/tree/archive/v0.10) |
+| `v0.1.6` | 2020-01-31 | `^0.1.0-beta.9` | [Browse](https://github.com/flarchive/neercsys-flarum-ext-bosanski/tree/archive/v0.1.6) |
+| `v0.1.7` | 2020-02-12 | `^0.1.0-beta.9` | [Browse](https://github.com/flarchive/neercsys-flarum-ext-bosanski/tree/archive/v0.1.7) |
+| `v0.1.8` | 2020-02-12 | `^0.1.0-beta.9` | [Browse](https://github.com/flarchive/neercsys-flarum-ext-bosanski/tree/archive/v0.1.8) |
+| `v0.10.1` | 2019-09-18 | `^0.1.0-beta.9` | [Browse](https://github.com/flarchive/neercsys-flarum-ext-bosanski/tree/archive/v0.10.1) |
+| `v0.11` | 2019-10-06 | `^0.1.0-beta.9` | [Browse](https://github.com/flarchive/neercsys-flarum-ext-bosanski/tree/archive/v0.11) |
+| `v0.12` | 2019-12-04 | `^0.1.0-beta.9` | [Browse](https://github.com/flarchive/neercsys-flarum-ext-bosanski/tree/archive/v0.12) |
+| `v0.13` | 2020-01-16 | `^0.1.0-beta.9` | [Browse](https://github.com/flarchive/neercsys-flarum-ext-bosanski/tree/archive/v0.13) |
+| `v0.14` | 2020-01-16 | `^0.1.0-beta.9` | [Browse](https://github.com/flarchive/neercsys-flarum-ext-bosanski/tree/archive/v0.14) |
+| `v0.15` | 2020-01-21 | `^0.1.0-beta.9` | [Browse](https://github.com/flarchive/neercsys-flarum-ext-bosanski/tree/archive/v0.15) |
+
+[View all 34 versions](https://github.com/flarchive/neercsys-flarum-ext-bosanski/tags)
 
 Catalog entry: [packages/neercsys-flarum-ext-bosanski.json](https://github.com/flarchive/archive-index/blob/main/packages/neercsys-flarum-ext-bosanski.json)
 
